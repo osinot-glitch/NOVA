@@ -1,12 +1,12 @@
 header{
+    position: sticky;
+    top:0;
+    z-index: 1000;
     display: flex;
     justify-content: center;
     text-align: center;
     gap: 35px;
-    position: sticky;
-    top:0;
-    z-index: 1000;
-     background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 header a{
     text-decoration: none;
