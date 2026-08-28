@@ -3,6 +3,8 @@ header{
     justify-content: center;
     text-align: center;
     gap: 35px;
+    position: sticky;
+    top:0;
 }
 header a{
     text-decoration: none;
