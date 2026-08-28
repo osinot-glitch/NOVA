@@ -69,10 +69,13 @@ span{
 }
 .featured{
     display: flex;
+    flex-wrap: wrap;
     gap: 70px;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .featured img{
     border-radius: 7px;
@@ -111,9 +114,15 @@ span{
     display: flex;
 }
 .annual div{
-    background-color: #e3d9ff;
+    background-color: #ede7ff;
     padding: 20px 400px;
     border-radius: 10px;
+     transition: 0.4s ease-in-out !important;
+}
+.annual div:hover{
+    transform: translateY(-5px);
+    background-color: #b9baf8;
+    border-radius: 15px;
 }
 .annual button{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -124,10 +133,154 @@ span{
     border-radius: 8px;
     background-color: #4f29b7;
     color: white;
-    transition: 0.4s ease-in-out !important;
+    transition: 0.6s ease-in-out !important;
 }
 .annual button:hover{
     transform: translateY(-3px);
     background-color: rgb(115, 86, 192);
     color: rgb(221, 221, 221);
+}
+.Speakers img{
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+}
+.Speakers{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 70px;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+.Speakers div{
+    border-radius: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    pad: 10px;
+}
+.ready div{
+    background-color: #ece7fa;
+    border-radius: 8px;
+    padding: 20px 300px;
+    transition: 0.6s ease-in-out !important;
+}
+.ready div:hover{
+    transform: translateY(-5px);
+    background-color: #b9baf8;
+    border-radius: 15px;
+}
+.ready{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+}
+.ready button{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 9px 28px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4f29b7;
+    color: white;
+    transition: 0.4s ease-in-out !important;
+}
+.ready button:hover{
+        transform: translateY(-3px);
+    background-color: rgb(115, 86, 192);
+    color: rgb(221, 221, 221);
+}
+.Speakers1 img{
+    width: 260px;
+    height: 260px;
+    border-radius: 10px;
+}
+.Speakers1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+.Speakers1 div{
+    border-radius: 10px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.Contact{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 220px;
+}
+.lets{
+    font-size: 22px;
+}
+input{
+    padding: 15px 150px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid  #4f29b7;
+}
+#message{
+    margin-top: 15px;
+     border: 1px solid  #4f29b7;
+     border-radius: 5px;
+}
+#submit{
+     padding: 15px 170px;
+     background-color:  #4f29b7;
+     font-weight: bold;
+     font-size: 18px;
+     border: none;
+     color: white;
+}
+.send{
+    margin-top: 50px;
+}
+::placeholder{
+    color: #4f29b7;
+    text-align: center;
+}
+.abn{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    font-size: 23px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.abn img{
+    border-radius: 10px;
+    width: 600px;
+}
+.mission{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.mission div{
+    border: 1px solid #4f29b7;
+    border-radius: 10px;
+    padding: 20px 35px;
+}
+.ev500{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-bottom: 50px;
+    background-color: #4a4ca3;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+    color: white;
 }
